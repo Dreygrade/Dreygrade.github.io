@@ -22,9 +22,22 @@ section {
     height: 100px;
 }
 
-aside {
+/*aside {
     width: 33%;
+}*/
+
+@media screen and (min-width: 680px) {
+    aside {
+        width: 33%;
+    }
 }
+
+@media screen and (max-width: 680px) {
+    aside {
+        display: none;
+    }
+}
+
 
 footer {
     clear: both;
